@@ -1,0 +1,136 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "settings": {
+          "padding_top": 28,
+          "padding_bottom": 28
+        }
+      },
+      "16540049412e4b43ed": {
+        "type": "rich-text",
+        "blocks": {
+          "1654004941559591e2-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "<p>Object<\/p>",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "1654004941559591e2-0"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "background-1",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "1654004803a782fd47": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{{ page.title }}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "16540050351167013a": {
+        "type": "rich-text",
+        "blocks": {
+          "1654005034db8b3e54-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "<p>Tag<\/p>",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "1654005034db8b3e54-0"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "background-1",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "16540050395d9f7656": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% if page.title == 'Liquid'\n%} yes, the title is Liquid {% endif %}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "1654005593911f131f": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% unless page.title == 'Liquid' %}\nThe page title is not Liquid\n{% endunless %}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "1654010793dc8bec1d": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% if page.title == 'Liquid'\n%} The page title is Liquid\n{% else %}\nThe page title is not Liquid\n{% endif %}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "1654005562d8ede4c1": {
+        "type": "rich-text",
+        "blocks": {
+          "165400556264fe2a8c-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "<p>Filter<\/p>",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "165400556264fe2a8c-0"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "background-1",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "165400559192e958ce": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{{ 'hello world' | capitalize }}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      }
+    },
+    "order": [
+      "main",
+      "16540049412e4b43ed",
+      "1654004803a782fd47",
+      "16540050351167013a",
+      "16540050395d9f7656",
+      "1654005593911f131f",
+      "1654010793dc8bec1d",
+      "1654005562d8ede4c1",
+      "165400559192e958ce"
+    ]
+  }
