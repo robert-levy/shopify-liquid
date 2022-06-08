@@ -1,0 +1,37 @@
+<!-- {{ section.settings.liquid-range }} -->
+
+{{ section.settings.new-blog.articles_count }}
+
+{% unless section.settings.new-blog.articles_count == 0 %}
+    There is at least 1 blog post on this website
+{% endunless %}
+
+
+{% schema %}
+
+{
+   "name": "New Blog Posts",
+   "settings": [
+   {
+        "id":"liquid-range",
+        "type": "range",
+        "label":"Range",
+        "min":1,
+        "max":12,
+        "step":1,
+        "default": 3
+    },
+    {
+       "id":"new-blog",
+       "type": "blog",
+       "label":"Blog"
+    }
+  ],
+ "presets": [
+     {
+         "category": "Posts",
+         "name":"New Blog Posts"
+     }
+ ]
+}
+{% endschema %}
